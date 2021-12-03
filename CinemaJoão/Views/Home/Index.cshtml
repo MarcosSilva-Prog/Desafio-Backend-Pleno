@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    
+}
+<link type="text/css" rel="stylesheet" href="~/css/estilo.css" />
+<div class="text-center">
+    <h1 class="display-4">Cine.Max João</h1>
+    <p>Lista de Filmes  <a href="https://localhost:44326/FilmesModels"> Vamos Lá...</a>.</p>
+
+</div>
+<body>
+
+    <section class="galeria">
+        <img src="~/img/fime1.jpg" alt="" onclick="mostrarImagem(this)" />
+        <img src="~/img/filme2.jpg" alt="" onclick="mostrarImagem(this)" />
+        <img src="~/img/filme3.jpg" alt="" onclick="mostrarImagem(this)" />
+        <img src="~/img/filme4.jpg" alt="" onclick="mostrarImagem(this)" />
+        <img src="~/img/filme5.jpg" alt="" onclick="mostrarImagem(this)" />
+        <img src="~/img/filme6.jpg" alt="" onclick="mostrarImagem(this)" />
+        <img src="~/img/filme7.jpg" alt="" onclick="mostrarImagem(this)" />
+        <img src="~/img/filme8.jpg" alt="" onclick="mostrarImagem(this)" />
+        <img src="~/img/filme9.jpg" alt="" onclick="mostrarImagem(this)" />
+
+    </section>
+
+   <section class="conteiner">
+       <span onclick="this.parentElement.style.display='none'" class="btnFeichar">&times;</span>
+       <img id ="imagemGrande" />
+
+
+   </section>
+</body>
